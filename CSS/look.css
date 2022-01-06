@@ -1,9 +1,9 @@
-/* .profile-image img{
+.profile-image img{
     height: 200px;
     width: auto;
     border-radius: 50%;
 
-} */
+}
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 *{
     box-sizing: border-box;
