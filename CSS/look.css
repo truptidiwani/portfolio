@@ -19,11 +19,11 @@ body{
 }
 
 .label{
-    height: 50px;
-    width: 25px;
+    height: 25px;
+    width: 50 px;
     border-radius: 50px;
     display: flex;
-    background-color: purple;
+    background-color: #111;
     align-items: center;
     justify-content: space-between;
     padding: 5px;
@@ -52,7 +52,7 @@ body.dark{
 .ball{
     height: 22px;
     width: 22px;
-    background-color: white;
+    background-color:white;
     position: absolute;
     top: 2px;
     left: 2px;
