@@ -3,6 +3,7 @@
     width: auto;
     border-radius: 50%;
     float:left;
+    
 
 }
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
@@ -15,13 +16,26 @@ body{
     justify-content: center;
     height: 1px;
     margin: 0;
-    background-color: rosybrown;
+    background-color: white;
     transition: transform 0.2s linear;
 }
+
+/* body.dark{
+    background-color: black;
+    color: black;
+} */
+
+
+  
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
 .theme{
     position: absolute;
     top: 30px;
     right: 30px;
+
 }
 .header{
     padding-top: 250px;
@@ -36,20 +50,25 @@ body{
     text-align: center  ;
 }
 .label{
-    height: 25px;
+    height: 26px;
     width: 50 px;
     border-radius: 50px;
     display: flex;
     background-color: #111;
     align-items: center;
     justify-content: space-between;
-    padding: 5px;
+    padding: 8px;
     position: relative;
     align-items: center;
     cursor: pointer;
 }
-.checkbox:checked + .label .round {
+.checkbox:checked + .label .ball {
 	transform: translateX(24px);
+}
+
+.checkbox{
+    opacity: 0;
+
 }
 
 .fa-moon{
@@ -58,6 +77,17 @@ body{
 
 .fa-sun{
     color: yellow;
+    margin-left: 2px;
+}
+
+.contact{
+        margin-left: 41%;
+}
+
+.details{
+    display: flex;
+    padding: 7%;
+    justify-content: space-around;
 }
 
 .ball{
