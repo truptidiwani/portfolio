@@ -2,6 +2,7 @@
     height: 200px;
     width: auto;
     border-radius: 50%;
+    float:left;
 
 }
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
@@ -17,16 +18,23 @@ body{
     background-color: rosybrown;
     transition: transform 0.2s linear;
 }
-
-body.dark{
-    background-color: black;
-}
-
-.checkbox{
-    opacity: 0;
+.theme{
     position: absolute;
+    top: 30px;
+    right: 30px;
 }
-
+.header{
+    padding-top: 250px;
+}
+.title{
+    font-size: 30px;
+    padding-left: 30px;
+}
+.sub-title{
+    font-size: 25px;
+    padding-left: 30px;
+    text-align: center  ;
+}
 .label{
     height: 25px;
     width: 50 px;
