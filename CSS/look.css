@@ -101,3 +101,14 @@ body{
     transform: translateX(0px);
 	transition: transform 0.2s linear;
 }
+
+.navbar ul{
+    display: flex;
+}
+
+ul li{
+    margin-left: 10px;
+    width: 60px;
+    
+
+}
